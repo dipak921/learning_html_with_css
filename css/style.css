@@ -8,3 +8,66 @@ p{
     color: yellowgreen;
     background-color: blue;
 }
+/* all statement are upper case  */
+.t_uppercase{
+    text-transform: uppercase;
+    color: aqua;
+    text-decoration: underline;
+}
+/* all statement are lowercase case  */
+.t_lowercase{
+    text-transform: lowercase;
+    color: fuchsia;
+    text-decoration: overline;
+}
+/* all statement are first letter are capital case  */
+.t_capitlize{
+    text-transform: capitalize;
+    color: yellowgreen;
+    text-decoration: line-through;
+}
+/* all statement is center case  */
+.t_center{ 
+    text-align: center;
+    text-decoration: double;
+}
+
+/* all statement are right hand side  */
+.t_right{
+    text-align: right;
+}
+/* all properties are not worke only the leatest proprities work */
+.t_allpro{
+    text-decoration: line-through underline overline; /* one line work but spearete are not work */
+}
+
+.t_indent{
+    text-indent: 30px;
+}
+/* height spacing */
+.t_height{
+    line-height: 30px;
+}
+/* word spacing */
+.w_word{
+    word-spacing: 50px;
+}
+/* character spacing */
+.l_charcter{
+    letter-spacing: 20px;
+}
+/* Shadow*/
+.s_shadow{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    /* first horizontal next vertical blur color*/
+    text-shadow: 6px 6px 6px red;
+}
+.i_info{
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    text-shadow: 9px 10px 5px black;
+
+}

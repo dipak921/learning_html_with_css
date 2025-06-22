@@ -1,0 +1,23 @@
+/* used font family minimum three fornt   */
+
+.font1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100; /* used for think ness range 100-900 */
+}
+
+.font2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 5; /* line height is used for two line gap increase or descres */
+}
+
+.font4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.font5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

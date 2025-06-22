@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(14, 14, 75);
+}
+.button{
+    font-size: 30px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#about{
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    text-align: left;
+    padding: 10%;
+}
+
+#pic{
+    filter: drop-shadow(5px 5px 6px green);
+    padding: 75%;
+    height: 450px;
+    width: 250px;
+}
+#name{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#table{
+    color: white;
+
+}

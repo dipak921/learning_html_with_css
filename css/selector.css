@@ -1,0 +1,21 @@
+/* frist priority is also id and id is used in one name then class proority class is used two or more name  */
+#heading{
+    color: blue;
+    font-size: 55px;
+}
+
+#bgcolor{
+    background-color: yellowgreen;
+}
+
+/* universal selector , universal is last proiority */
+*{
+    color: tomato;
+    font-size: 25pxz;
+}
+
+/* grouping in class  */
+.heading1, .heading2, .heading3{
+    color: teal;
+    font-size: 15px;
+}

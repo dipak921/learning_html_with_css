@@ -1,0 +1,45 @@
+.box_model{
+    padding: 30px;
+    border: 2px solid greenyellow;
+    margin: 100px;
+}
+
+.box_model1{
+    /* write in separate each side padding */
+    border: 3px solid orange;
+   /*  padding-top: 60px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    single line write first top, right , buttom, left*/
+    padding: 60px 80px 60px 80px ;
+     /* write in separate each side maggin  */
+    /* margin-top: 35px;
+    margin-right: 70px;
+    margin-bottom: 35px;
+    margin-left: 70px;
+     single line write first top, right , buttom, left*/
+    margin: 35px 70px 35px 70px;
+}
+
+.border_prop{
+    /*border type solid , dotted , dashed , inset , outset, double */
+    height: 350px;
+    width: 350px;
+    border: 9px double forestgreen;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 70px;
+
+    /* boredr separeted color  */
+    border-top-color: turquoise;
+    border-right-color: rgb(242, 5, 175);
+    border-left-color: yellow;
+    border-bottom-color: rgb(126, 218, 6);
+    /* shadow effect*/
+    box-shadow: 5px 5px 8px green;
+
+
+
+}

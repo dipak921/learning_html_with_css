@@ -1,0 +1,48 @@
+.hall{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: tomato;
+    top: 70px;
+    left: 100px;
+}
+
+#tv{
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+}
+
+#sofa{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    height: 35px;
+    width: 150px;
+    left: 170px;
+    background-color: aquamarine;
+}
+#table{
+    position: absolute;
+    background-color: aquamarine;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    top: 130px;
+    left: 190px;
+    border-radius: 20px;
+}
+
+#fridge{
+    position:fixed ;
+    background-color:aquamarine;
+    text-align: center;
+    height: 100px;
+    width: 50px;
+    left: 530px;
+    top: 270px;
+}

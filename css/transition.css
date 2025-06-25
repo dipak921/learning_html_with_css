@@ -1,0 +1,60 @@
+.containr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 15px;
+}
+
+.box{
+    background-color: darkorchid;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: transform 4s ease;
+}
+
+/* both axies x and y*/
+.box1:hover{
+    transform: translate(150px, 150px);
+    background-color: aqua;
+
+}
+
+.box2:hover{
+    transform: translateX(120px);
+    background-color: rgb(46, 0, 89);
+}
+
+.box3:hover{
+    transform: translateY(120px);
+    background-color: brown;
+}
+
+.box4:hover{
+    transform: rotate(300deg);
+
+}
+
+
+.box5:hover{
+    transform: skewX(30deg);
+
+}
+
+.box7:hover{
+    transform: skewY(300deg);
+}
+
+
+.box6:hover{
+    transform: scale(2);
+
+}
+
+.box8:hover{
+    transform: rotate(60deg) scale(3) translateY(50px);
+}

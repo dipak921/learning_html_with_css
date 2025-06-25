@@ -15,8 +15,9 @@
 }
 
 .container{
+    /* properties of flex */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 }
